@@ -1,0 +1,33 @@
+<div class="row g-0">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn-imgix.headout.com/media/images/cc38489a8186337f0f9d71a5d012dd66-Royal%20Palace%20of%20Caserta.jpg?auto=format&w=552&h=412.8&q=90&ar=3%3A4&crop=faces%2Ccenter&fit=crop" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn-imgix.headout.com/media/images/9322ee4e81b5d688686d843fc16b33d2-TicketstotheRoyalPalaceofCaserta3.jpg?auto=format&w=600&h=375&q=90&ar=16%3A10&crop=faces%2Ccenter&fit=crop"  alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn-imgix.headout.com/media/images/9f3a99bb82aab73de2fd9abde8fd6a3d-8871---Caserta---Tickets-to-the-Royal-Palace-of-Caserta---012.jpg?auto=format&w=552&h=412.8&q=90&ar=3%3A4&crop=faces%2Ccenter&fit=crop"  alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">The Royal Palace of Caserta</h5>
+        <p class="card-text">The Royal Palace of Caserta (Italian: Reggia di Caserta, Italian: [ˈrɛddʒa di kaˈzɛrta]) is a former royal residence in Caserta, Campania, 35km north of Naples in southern Italy.</p>
+        <h6 style="margin-left: 40px;">1150 Dinars</h6>
+        <p class="card-text"><small class="text-body-secondary">Last updated 8 hours ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>

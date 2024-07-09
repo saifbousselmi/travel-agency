@@ -1,0 +1,271 @@
+
+/* hero section*/
+#body1{
+    background-image: url(/Untitled\ design\ \(1\).png);
+    background-size:1550px 720px;
+   } 
+.navbar{
+        background-color:lightblue;
+align-items: center;
+justify-content: space-between;
+font-family:cursive;
+}
+#contents a {
+text-decoration: none;
+margin-left: 60px;  
+color: darkgray; 
+font-family:cursive;
+padding-left: 100px;
+padding-right: 10px;
+}
+#contents a:hover{
+    color: #191970		;
+}
+span{
+color: #191970		 ;
+font-size: large;
+font-family:cursive;
+}
+
+#welcome{
+    font-size: 30px;
+    color:darkgray ; 
+    font-family:cursive;
+    margin-left: 30px;
+    margin-top: 80px;
+    
+}
+#welcome1{ 
+    margin-top: 150px;
+    margin-right: 30px;
+    
+}
+#welcome2{
+    font-size: 30px;
+    color:darkgray;
+    font-family:cursive;
+     display: flex;
+    justify-content: flex-end; 
+    
+    
+     
+}
+#welcome3{
+    font-size: 20px;
+    color:darkgray;
+   font-family:cursive;
+    display: flex;
+    justify-content: flex-end; 
+   
+    margin-bottom: 20px;
+      
+}
+.button-container{
+   display: flex;
+   justify-content: center;
+   margin-top: 140px;
+}
+.button{ 
+   font-family:cursive;
+   border-radius:10px;
+   padding: 0; 
+   border: none;
+}
+.button:hover{
+    background-color: lightblue;  
+}
+#button2{
+margin-top: 60px;
+margin-left: 60px;
+}
+/* home */
+#body2{
+    background-color: rgb(187, 213, 236);
+}
+#cards1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+#cards2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+
+.card{
+    width: 20rem;
+    margin: 20px; 
+}
+
+
+.card-img-top{
+    height: 100%;
+    width: auto;
+     
+}
+#card-body{
+    font-family:cursive;
+     text-align: center;
+     padding: 15px;
+     color: darkgray;
+     background-color: rgb(201, 220, 226);
+}
+#plane{
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    
+}
+#plane1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* destinations */
+#body3{
+    background-color: rgb(187, 213, 236);
+}
+#tours1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+     
+}
+#tours2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+      flex-wrap: wrap;
+}
+@media screen and (max-width: 1500px )  {
+    #body1 {
+        background-size: 100%; 
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start; 
+        padding: 10px; 
+    }
+
+    .navbar-logo {
+        margin-left: 10px; 
+    }
+
+    #contents {
+        flex-direction: column; 
+        align-items: flex-start; 
+        margin-top: 10px; 
+}
+    #contents a {
+        margin-left: 10px;
+        margin-bottom: 10px; 
+        padding: 5px; 
+        text-align: center; 
+    }
+
+    #welcome {
+        font-size: 24px; 
+        margin-left: 10px; 
+        margin-top: 40px; 
+        text-align: center; 
+    }
+
+    #welcome1 {
+        margin-top: 50px; 
+    }
+
+    .button-container {
+        margin-top: 50px; 
+        text-align: center; 
+    }
+
+    #button2 {
+        margin-top: 20px;
+        margin-left: 0; 
+    }
+
+    #body1 {
+        background-size: cover; 
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start; 
+        padding: 10px; 
+    }
+
+    .navbar-logo {
+        margin-left: 10px;
+    }
+
+    #contents {
+        flex-direction: column; 
+        align-items: flex-start; 
+        margin-top: 10px; 
+    }
+
+    #contents a {
+        margin-left: 10px; 
+        margin-bottom: 10px; 
+        padding: 5px;
+        text-align: center; 
+    }
+
+    #welcome {
+        font-size: 24px;
+        margin-left: 10px; 
+        margin-top: 40px; 
+        text-align: center;
+    }
+
+    #welcome1 {
+        margin-top: 10px;
+    }
+
+    .button-container {
+        margin-top: 50px; 
+        text-align: center; 
+    }
+
+    #button2 {
+        margin-top: 20px; 
+        margin-left: 0; 
+}
+}
+
+    /*contact us*/
+    #contact{
+       background-color: rgb(187, 213, 236);
+        margin: 20px;
+    }
+
+#img{
+    animation-name: drive;
+    animation-duration: 5s;
+}
+@keyframes drive {
+    from{transform: translateX(0);}
+    to{transform: translateX(1500px);}
+}
+     
+ /*tours*/
+ .col-md-4{
+   contain: content;
+    
+ }
+ .card-body{
+    margin-left: 20px;
+ }
+ .card-title{
+    color: #191970;
+ }
+ .carousel-item{
+    width: auto;
+    height: 220px;
+ }
+ 
